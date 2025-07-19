@@ -74,8 +74,6 @@
 
         <!-- Main Footer -->
         @livewire('komponen.footer')
-        <!-- /.footer -->
-        @stack('footer')
     </div>
     <!-- ./wrapper -->
 

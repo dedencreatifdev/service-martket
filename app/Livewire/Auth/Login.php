@@ -37,7 +37,7 @@ class Login extends Component
 
         if(Auth::attempt(['email' => $this->email, 'password'=> $this->password])) {
 
-            return redirect()->route('dashboard.index');
+            return redirect()->route('admin.dashboard.index');
 
         } else {
             session()->flash('email', 'Alamat Email atau Password Anda salah!.');
